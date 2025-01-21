@@ -1,0 +1,16 @@
+[package]
+name = "Bridge"
+version = "1.0.0"
+authors = []
+upgrade_policy = "compatible"
+
+[addresses]
+platform = "25e6d86a5a7083d9d61e40381e5238ab6d2e785825eba0183cebb6009483dab4"
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
